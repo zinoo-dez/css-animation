@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: box1 5s infinite 1s forwards ease-in-out;
+    position: absolute;
+}
+
+@keyframes box1 {
+    0% {
+        background: yellow;
+        opacity: 0;
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        background: green;
+        top: 0;
+        left: 400px;
+    }
+
+    50% {
+        background: blue;
+        opacity: 0.5;
+        top: 400px;
+        left: 400px;
+    }
+
+    75% {
+        background: grey;
+        left: 0;
+        top: 400px;
+    }
+
+    100% {
+        background: red;
+        opacity: 1;
+        top: 0;
+        left: 0;
+    }
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: box2 5s infinite 1s forwards ease-in-out;
+    position: absolute;
+}
+
+@keyframes box2 {
+    0% {
+        background: yellow;
+        opacity: 0;
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        background: green;
+        top: 400px;
+        left: 0px;
+    }
+
+    50% {
+        background: blue;
+        opacity: 0.5;
+        top: 400px;
+        left: 400px;
+    }
+
+    75% {
+        background: grey;
+        left: 400px;
+        top: 0px;
+    }
+
+    100% {
+        background: red;
+        opacity: 1;
+        top: 0;
+        left: 0;
+    }
+}
